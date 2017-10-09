@@ -27,6 +27,7 @@ gem 'foreman'
 
 #Devise: Gem para realizar autenticacao de usuarios
 gem 'devise'
+gem 'devise-i18n'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
