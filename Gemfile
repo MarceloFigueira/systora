@@ -21,6 +21,10 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+gem 'rails-i18n'
+
+gem 'foreman'
+
 #Devise: Gem para realizar autenticacao de usuarios
 gem 'devise'
 
@@ -41,6 +45,8 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  #gem para ajudar na leitura de erros
+  gem 'better_errors'
 end
 
 group :development do
